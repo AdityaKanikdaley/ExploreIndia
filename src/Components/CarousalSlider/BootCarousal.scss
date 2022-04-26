@@ -1,0 +1,27 @@
+.carousal-slider {
+    // padding: 10px;
+    display: block;
+    margin: auto;
+}
+
+.image {
+    object-fit: cover;
+    width: 100%;
+    height: 550px;
+    // border-radius: 10px;   
+}
+
+.caption {
+    width: 30%;
+    right: 35%;
+    left: 35%;
+    padding: 10px;
+    display: inline;
+    bottom: 2rem;
+    border-radius: 5px;
+    background-color: rgba($color: #696969, $alpha: 0.7);
+}
+
+.carousel-indicators {
+    margin-bottom: 1vmin
+}

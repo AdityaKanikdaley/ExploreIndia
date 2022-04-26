@@ -1,0 +1,34 @@
+{
+    "carousalData" : [
+        {
+            "src": "https://media.cntraveller.in/wp-content/uploads/2018/12/jaipur-haw-mahal-shutterstock_559519123.jpg",
+            "altText": "First Slide",
+            "caption": "First Slide"
+        },
+        {
+            "src": "https://media.cntraveller.in/wp-content/uploads/2018/12/jaipur-haw-mahal-shutterstock_559519123.jpg",
+            "altText": "Second Slide",
+            "caption": "Second Slide"
+        },
+        {
+            "src": "https://media.cntraveller.in/wp-content/uploads/2018/12/jaipur-haw-mahal-shutterstock_559519123.jpg",
+            "altText": "Third Slide",
+            "caption": "Third Slide"
+        },
+        {
+            "src": "https://media.cntraveller.in/wp-content/uploads/2018/12/jaipur-haw-mahal-shutterstock_559519123.jpg",
+            "altText": "Fourth Slide",
+            "caption": "Fourth Slide"
+        },
+        {
+            "src": "https://media.cntraveller.in/wp-content/uploads/2018/12/jaipur-haw-mahal-shutterstock_559519123.jpg",
+            "altText": "Fifth Slide",
+            "caption": "Fifth Slide"
+        },
+        {
+            "src": "https://media.cntraveller.in/wp-content/uploads/2018/12/jaipur-haw-mahal-shutterstock_559519123.jpg",
+            "altText": "Sixth Slide",
+            "caption": "Sixth Slide"
+        }
+    ]
+}
