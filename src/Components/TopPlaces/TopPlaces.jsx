@@ -1,4 +1,4 @@
-import { Carousel } from 'react-bootstrap'
+import { Card, Carousel, Button } from 'react-bootstrap'
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -8,7 +8,97 @@ import topPlaces from "../../Data/TopPlacesData.json"
 
 function TopPlaces() {
     return (
-        <Carousel className='carousal-slider carousel-fade'>
+        <div className='container-fluid'>
+            <div className='row'>
+                <div className='col-lg-3 col-md-6 col-sm-12 col-xs-12'>
+                    <Carousel className='carousal-slider-topPic carousel-fade'>
+                        {
+                            topPlaces.parks.map((items, i) => {
+                                return (
+                                    <Carousel.Item key={i} interval={3500}>
+                                        <Card>
+                                            <Card.Img variant="top" src={items.src} />
+                                            <Card.Body>
+                                                <Card.Title>{items.title}</Card.Title>
+                                                <Card.Text>{items.context}</Card.Text>
+                                                <Button variant="primary">Go somewhere</Button>
+                                            </Card.Body>
+                                        </Card>
+                                    </Carousel.Item>
+                                );
+                            })
+                        }
+                    </Carousel>
+                </div>
+                <div className='col-lg-3 col-md-6 col-sm-12 col-xs-12'>
+                    <Carousel className='carousal-slider-topPic carousel-fade'>
+                        {
+                            topPlaces.forts.map((items, i) => {
+                                return (
+                                    <Carousel.Item key={i} interval={3500}>
+                                        <Card>
+                                            <Card.Img variant="top" src={items.src} />
+                                            <Card.Body>
+                                                <Card.Title>{items.title}</Card.Title>
+                                                <Card.Text>{items.context}</Card.Text>
+                                                <Button variant="primary">Go somewhere</Button>
+                                            </Card.Body>
+                                        </Card>
+                                    </Carousel.Item>
+                                );
+                            })
+                        }
+                    </Carousel>
+                </div>
+                <div className='col-lg-3 col-md-6 col-sm-12 col-xs-12'>
+                    <Carousel className='carousal-slider-topPic carousel-fade'>
+                        {
+                            topPlaces.parks.map((items, i) => {
+                                return (
+                                    <Carousel.Item key={i} interval={3500}>
+                                        <Card>
+                                            <Card.Img variant="top" src={items.src} />
+                                            <Card.Body>
+                                                <Card.Title>{items.title}</Card.Title>
+                                                <Card.Text>{items.context}</Card.Text>
+                                                <Button variant="primary">Go somewhere</Button>
+                                            </Card.Body>
+                                        </Card>
+                                    </Carousel.Item>
+                                );
+                            })
+                        }
+                    </Carousel>
+                </div>
+                <div className='col-lg-3 col-md-6 col-sm-12 col-xs-12'>
+                    <Carousel className='carousal-slider-topPic carousel-fade'>
+                        {
+                            topPlaces.forts.map((items, i) => {
+                                return (
+                                    <Carousel.Item key={i} interval={3500}>
+                                        <Card>
+                                            <Card.Img variant="top" src={items.src} />
+                                            <Card.Body>
+                                                <Card.Title>{items.title}</Card.Title>
+                                                <Card.Text>{items.context}</Card.Text>
+                                                <Button variant="primary">Go somewhere</Button>
+                                            </Card.Body>
+                                        </Card>
+                                    </Carousel.Item>
+                                );
+                            })
+                        }
+                    </Carousel>
+                </div>
+            </div>
+        </div>
+    )
+}
+
+export default TopPlaces;
+
+/*
+<Carousel className='carousal-slider carousel-fade'>
             {
                 topPlaces.topPlaces1.map((items, i) => {
                     return (
@@ -31,7 +121,4 @@ function TopPlaces() {
                 })
             }
         </Carousel>
-    )
-}
-
-export default TopPlaces;
+*/
