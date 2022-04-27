@@ -1,0 +1,14 @@
+.videoPlayer {
+    // width: "90%";
+    // height:"550px";
+    // border: 2px solid red;
+    display: block;
+    
+    video {
+        width: 85%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+}
