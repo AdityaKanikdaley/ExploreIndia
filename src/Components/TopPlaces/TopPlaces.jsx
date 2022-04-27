@@ -15,7 +15,7 @@ function TopPlaces() {
                         {
                             topPlaces.parks.map((items, i) => {
                                 return (
-                                    <Carousel.Item key={i} interval={3500}>
+                                    <Carousel.Item key={i} interval={4500}>
                                         <Card>
                                             <Card.Img variant="top" src={items.src} />
                                             <Card.Body>
@@ -35,7 +35,7 @@ function TopPlaces() {
                         {
                             topPlaces.forts.map((items, i) => {
                                 return (
-                                    <Carousel.Item key={i} interval={3500}>
+                                    <Carousel.Item key={i} interval={4500}>
                                         <Card>
                                             <Card.Img variant="top" src={items.src} />
                                             <Card.Body>
@@ -55,7 +55,7 @@ function TopPlaces() {
                         {
                             topPlaces.parks.map((items, i) => {
                                 return (
-                                    <Carousel.Item key={i} interval={3500}>
+                                    <Carousel.Item key={i} interval={4500}>
                                         <Card>
                                             <Card.Img variant="top" src={items.src} />
                                             <Card.Body>
@@ -75,7 +75,7 @@ function TopPlaces() {
                         {
                             topPlaces.forts.map((items, i) => {
                                 return (
-                                    <Carousel.Item key={i} interval={3500}>
+                                    <Carousel.Item key={i} interval={4500}>
                                         <Card>
                                             <Card.Img variant="top" src={items.src} />
                                             <Card.Body>
