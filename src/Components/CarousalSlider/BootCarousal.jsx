@@ -13,7 +13,7 @@ function BootCarousal() {
             {
                 carousalItems.carousalData.map((items, i) => {
                     return (
-                        <Carousel.Item key={i}>
+                        <Carousel.Item interval={2000} key={i}>
                             <img 
                                 className = "d-block image"
                                 src={items.src}
