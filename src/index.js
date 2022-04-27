@@ -7,6 +7,7 @@ import NavHeader from './Components/Header/Header';
 import VideoPlayer from './Components/VideoPlayer/Player';
 import Divider from './Components/Divider/Divider';
 import TopPlaces from './Components/TopPlaces/TopPlaces';
+import States from './Components/States/States';
 
 import './index.scss';
 
@@ -16,35 +17,45 @@ root.render(
 
     {/* header nav */}
     <NavHeader />
-    <div className='hr-line'/>
-    
+    <div className='hr-line' />
+
     {/* intro video - autoplay video */}
     <VideoPlayer />
-    
+
     {/* popular in india - carousal  */}
-    <div className='hr-line'/>
+    <div className='hr-line' />
     <Divider />
     <h1 className='h1-headings'>Popular in India</h1>
     <Divider />
-    
-    <div className='hr-line'/>
+
+    <div className='hr-line' />
     <BootCarousal />
 
     {/* top places to visit - 2 rows of carousal */}
-    <div className='hr-line'/>
+    <div className='hr-line' />
     <Divider />
     <h1 className='h1-headings'>Top Places to Visit</h1>
     <Divider />
 
     {/* top places to visit */}
-    <div className='hr-line'/>
+    <div className='hr-line' />
     <TopPlaces />
-    
+
+    {/* top places to visit - 2 rows of carousal */}
+    <div className='hr-line' />
+    <Divider />
+    <h1 className='h1-headings'>States to Visit</h1>
+    <Divider />
+
+    {/* states */}
+    <div className='hr-line' />
+    <States />
+
   </div>
 );
 
 //header nav
 //intro video -> autoplay video
-//popular in india -> carousal  
+//popular in india -> carousal
 //top places to visit
 //states -> hover to see capitals (grid view)
