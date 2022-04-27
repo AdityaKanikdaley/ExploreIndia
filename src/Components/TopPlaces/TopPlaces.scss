@@ -1,0 +1,45 @@
+.image {
+    border-radius: 5px;
+    object-fit: cover;
+    // width: 100%;
+    // height: inherit;
+}
+
+.carousal-slider {
+    // padding: 10px;
+    width: 85%;
+    display: block;
+    margin: auto;
+    height: min-content;
+}
+
+.context {
+    font-size: large;
+    font-weight: 600;
+    height: 30rem;
+    line-height-step: 10;
+    // padding: auto;
+}
+
+.carousel-indicators {
+    display: none;
+}
+
+.carousel-control-prev-icon {
+    display: none;
+}
+
+.carousel-control-next-icon {
+    display: none;
+}
+
+.row > * {
+    padding-top: calc(var(--bs-gutter-x) * .8);
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.row > .col-lg-6 {
+    padding-right: calc(var(--bs-gutter-x) * .5); 
+    padding-left: calc(var(--bs-gutter-x) * .5);
+}

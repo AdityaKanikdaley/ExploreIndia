@@ -1,0 +1,28 @@
+{
+    "topPlaces1" : [
+        {
+            "src" : "https://images.news18.com/ibnlive/uploads/2021/12/statue-of-unity-16454296913x2.jpg",
+            "title" : "Statue of Unity",
+            "context" : "The Statue of Unity is the world's tallest statue, with a height of 182 metres (597 feet), located in the state of Gujarat, India. It depicts Indian statesman and independence activist Vallabhbhai Patel (1875–1950), who was the first deputy prime minister and home minister of independent India and an adherent of Mahatma Gandhi. Patel was highly respected for his leadership in uniting 562 princely states of India with a major part of the former British Raj to form the single Union of India. In Gujarat the statue is found on the Narmada River in the Kevadiya colony, facing the Sardar Sarovar Dam 100 kilometres (62 mi) southeast of the city of Vadodara. The project was first announced in 2010, and construction of the statue started in October 2013 by Indian company Larsen & Toubro, with a total construction cost of ₹2,700 crore (US$422 million). It was designed by Indian sculptor Ram V. Sutar and was inaugurated by the Prime Minister of India, Narendra Modi on 31 October 2018, the 143rd anniversary of Patel's birth.",
+            "buttonLink" : "https://statueofunity.in/"
+        },
+        {
+            "src" : "https://images.unsplash.com/photo-1564507592333-c60657eea523?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dGFqJTIwbWFoYWx8ZW58MHx8MHx8&w=1000&q=80",
+            "title" : "Taj Mahal",
+            "context" : "The Taj Mahal, is an ivory-white marble mausoleum on the right bank of the river Yamuna in the Indian city of Agra. It was commissioned in 1632 by the Mughal emperor Shah Jahan to house the tomb of his favourite wife, Mumtaz Mahal",
+            "buttonLink" : "https://www.tajmahal.gov.in/"
+        },
+        {
+            "src" : "https://images.unsplash.com/photo-1631983097767-099c77bf880d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3RhdHVlJTIwb2YlMjB1bml0eXxlbnwwfHwwfHw%3D&w=1000&q=80",
+            "title" : "Statue of Unity",
+            "context" : "The statue has been built as an ode to the Iron Man of India, Sardar Vallabhbhai Patel, the first home minister of independent India. He was responsible for uniting all 562 princely states of the country to build the Republic of India.",
+            "buttonLink" : "https://statueofunity.in/"
+        },
+        {
+            "src" : "https://images.unsplash.com/photo-1631983097767-099c77bf880d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3RhdHVlJTIwb2YlMjB1bml0eXxlbnwwfHwwfHw%3D&w=1000&q=80",
+            "title" : "Statue of Unity",
+            "context" : "The statue has been built as an ode to the Iron Man of India, Sardar Vallabhbhai Patel, the first home minister of independent India. He was responsible for uniting all 562 princely states of the country to build the Republic of India.",
+            "buttonLink" : "https://statueofunity.in/"
+        }
+    ]
+}
