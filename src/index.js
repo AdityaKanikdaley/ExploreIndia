@@ -12,7 +12,7 @@ import './index.scss';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <div>
+  <div className='complete-body'>
 
     {/* header nav */}
     <NavHeader />
