@@ -1,12 +1,15 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faGithub, faLinkedin, faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { BrowserRouter } from "react-router-dom";
+import { HashLink as Link} from "react-router-hash-link";
 
 import "./Footer.scss";
 
 function Footer() {
     return (
-        <footer className="site-footer">
+        <BrowserRouter>
+        <footer className="site-footer" id="footer">
             <div className="container-fluid">
                 <div className="row footer-row">
                     <div className="col-xs-12 col-sm-12 col-md-6 section">
@@ -17,19 +20,19 @@ function Footer() {
                     <div className="col-sm-6 col-xs-12 col-md-3">
                         <h6>Technology Used</h6>
                         <ul className="footer-links">
-                            <li><a href="http://scanfcode.com/category/c-language/">React</a></li>
-                            <li><a href="http://scanfcode.com/category/front-end-development/">Bootstrap</a></li>
-                            <li><a href="http://scanfcode.com/category/back-end-development/">Scss</a></li>
+                            <li><a href="https://reactjs.org/" target={"_blank"}>React</a></li>
+                            <li><a href="https://react-bootstrap.github.io/" target={"_blank"}>React-Bootstrap</a></li>
+                            <li><a href="https://www.npmjs.com/package/create-react-app-sass" target={"_blank"}>Scss</a></li>
+                            <li><a href="https://v5.reactrouter.com/web/api/Route" target={"_blank"}>Routing</a></li>
                         </ul>
                     </div>
 
                     <div className="col-sm-6 col-xs-12 col-md-3">
                         <h6>Quick Links</h6>
                         <ul className="footer-links">
-                            <li><a href="http://scanfcode.com/about/">Home</a></li>
+                            <li><Link to='#home' smooth>Home</Link></li>
                             <li><a href="http://scanfcode.com/about/">About</a></li>
                             <li><a href="http://scanfcode.com/contact/">Contact</a></li>
-
                         </ul>
                     </div>
                 </div>
@@ -56,6 +59,7 @@ function Footer() {
                 </div>
             </div>
         </footer>
+        </BrowserRouter>
     );
 }
 
