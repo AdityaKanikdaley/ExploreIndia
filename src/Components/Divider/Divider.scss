@@ -6,24 +6,42 @@
     #block-1 {
         margin-left: 5px;
         margin-right: 5px;
-        width: 25px;
-        height: 8px;
-        background-color: red;
+
+        width: 50%;
+        height: 5px;
+        
+        background-image: linear-gradient(to right, #f00909, #dc6a89, #b690a2, #ffffff, #4245c8, #2036df, #4245c8, #8cb8d4, #ffffff, #73c97a, #4ad35f, #00ff02);
     }
 
-    #block-2 {
-        margin-left: 5px;
-        margin-right: 5px;
-        width: 25px;
-        height: 8px;
-        background-color: blue;
-    }
+    // #block-2 {
+    //     margin-left: 5px;
+    //     margin-right: 5px;
+    //     width: 25px;
+    //     height: 8px;
+    //     background-color: white;
+    // }
 
-    #block-3 {
-        margin-left: 5px;
-        margin-right: 5px;
-        width: 25px;
-        height: 8px;
-        background-color: green;
-    }
+    // #block-3 {
+    //     margin-left: 5px;
+    //     margin-right: 5px;
+    //     width: 25px;
+    //     height: 8px;
+    //     background-color: blue;
+    // }
+
+    // #block-4 {
+    //     margin-left: 5px;
+    //     margin-right: 5px;
+    //     width: 25px;
+    //     height: 8px;
+    //     background-color: white;
+    // }
+
+    // #block-5 {
+    //     margin-left: 5px;
+    //     margin-right: 5px;
+    //     width: 25px;
+    //     height: 8px;
+    //     background-color: green;
+    // }
 }

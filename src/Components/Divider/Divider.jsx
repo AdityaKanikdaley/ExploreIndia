@@ -6,8 +6,10 @@ function Divider() {
     return (
         <div className="div-divider">
             <div id="block-1"></div>
-            <div id="block-2"></div>
+            {/* <div id="block-2"></div>
             <div id="block-3"></div>
+            <div id="block-4"></div>
+            <div id="block-5"></div> */}
         </div>
     );
 }

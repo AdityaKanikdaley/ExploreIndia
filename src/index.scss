@@ -14,12 +14,11 @@
     margin: auto;
     display: flex;
 
-    // background: linear-gradient(to right, #FDFBFB, #EBEDEE 70%);
-    text-transform: uppercase;
-	background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
-	-webkit-background-clip: text;
-    background-clip: text;
-	-webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1.3px;
+    -webkit-text-stroke-color: #080808;
+    -webkit-text-fill-color: white;
+    font-family: 'Lucida Console', Monaco, monospace;
+    text-shadow: 1px 2px 3px #A3A3A3;
 }
 
 .component-body {
