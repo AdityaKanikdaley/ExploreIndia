@@ -22,8 +22,17 @@
 	-webkit-text-fill-color: transparent;
 }
 
-.complete-body {
+.component-body {
     width: 85%;
     display: block;
     margin: auto;
+}
+
+.body {
+    background-image: url("./background.png");
+    // height: 100%;
+    // background-color: red;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

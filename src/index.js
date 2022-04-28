@@ -14,43 +14,48 @@ import './index.scss';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <div className='complete-body'>
+  <div className='body'>
 
     {/* header nav */}
     <NavHeader />
     <div className='hr-line' />
 
-    {/* intro video - autoplay video */}
-    <VideoPlayer />
+    <div className='component-body'>
 
-    {/* popular in india - carousal  */}
-    <div className='hr-line' />
-    <Divider />
-    <h1 className='h1-headings'>Popular in India</h1>
-    <Divider />
 
-    <div className='hr-line' />
-    <BootCarousal />
+      {/* intro video - autoplay video */}
+      <VideoPlayer />
 
-    {/* top places to visit - 2 rows of carousal */}
-    <div className='hr-line' />
-    <Divider />
-    <h1 className='h1-headings'>Top Places to Visit</h1>
-    <Divider />
+      {/* popular in india - carousal  */}
+      <div className='hr-line' />
+      <Divider />
+      <h1 className='h1-headings'>Popular in India</h1>
+      <Divider />
 
-    {/* top places to visit */}
-    <div className='hr-line' />
-    <TopPlaces />
+      <div className='hr-line' />
+      <BootCarousal />
 
-    {/* top places to visit - 2 rows of carousal */}
-    <div className='hr-line' />
-    <Divider />
-    <h1 className='h1-headings'>States to Visit</h1>
-    <Divider />
+      {/* top places to visit - 2 rows of carousal */}
+      <div className='hr-line' />
+      <Divider />
+      <h1 className='h1-headings'>Top Places to Visit</h1>
+      <Divider />
 
-    {/* states */}
-    <div className='hr-line' />
-    <States />
+      {/* top places to visit */}
+      <div className='hr-line' />
+      <TopPlaces />
+
+      {/* top places to visit - 2 rows of carousal */}
+      <div className='hr-line' />
+      <Divider />
+      <h1 className='h1-headings'>States to Visit</h1>
+      <Divider />
+
+      {/* states */}
+      <div className='hr-line' />
+      <States />
+
+    </div>
 
     <div className='last-hr-line' />
     {/* footer */}
