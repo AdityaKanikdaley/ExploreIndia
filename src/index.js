@@ -18,10 +18,11 @@ root.render(
 
     {/* header nav */}
     <NavHeader />
-    <div className='hr-line' />
+    <div style={{height:'20px'}} />
 
     <div className='component-body'>
 
+      <div className='big-hr-line' />
 
       {/* intro video - autoplay video */}
       <VideoPlayer />
@@ -57,7 +58,7 @@ root.render(
 
     </div>
 
-    <div className='last-hr-line' />
+    <div className='big-hr-line' />
     {/* footer */}
     <Footer />
 

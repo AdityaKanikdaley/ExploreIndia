@@ -3,7 +3,7 @@
     // height:"550px";
     // border: 2px solid red;
     // display: block;
-    
+
     video {
         border-radius: 5px;
         width: 100%;
@@ -12,4 +12,22 @@
         justify-content: center;
         margin: auto;
     }
+}
+
+.welcome {
+    // height: 90px;
+    // width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: auto;
+    // font-size: larger;
+    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+    background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
