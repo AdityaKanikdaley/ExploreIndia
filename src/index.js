@@ -8,6 +8,7 @@ import VideoPlayer from './Components/VideoPlayer/Player';
 import Divider from './Components/Divider/Divider';
 import TopPlaces from './Components/TopPlaces/TopPlaces';
 import States from './Components/States/States';
+import Footer from './Components/Footer/Footer';
 
 import './index.scss';
 
@@ -51,6 +52,10 @@ root.render(
     <div className='hr-line' />
     <States />
 
+    <div className='last-hr-line' />
+    {/* footer */}
+    <Footer />
+
   </div>
 );
 
@@ -59,3 +64,4 @@ root.render(
 //popular in india -> carousal
 //top places to visit
 //states -> hover to see capitals (grid view)
+//footer
