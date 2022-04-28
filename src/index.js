@@ -18,7 +18,7 @@ root.render(
 
     {/* header nav */}
     <NavHeader />
-    <div style={{height:'20px'}} />
+    {/* <div style={{height:'5px'}} /> */}
 
     <div className='component-body'>
 

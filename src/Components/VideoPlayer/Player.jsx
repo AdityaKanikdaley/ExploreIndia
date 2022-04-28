@@ -8,13 +8,18 @@ function VideoPlayer() {
     return (
         <div className="videoPlayer">
             <Divider />
-            <h1 className='welcome' id="home">Start Exploring India</h1>
+            <h2 className='welcome' id="home">Start Exploring India</h2>
             <Divider />
-            <br></br>
-            <br></br>
+           
+            <div style={{height:'22px'}}></div>
+           
             <video nocontrols="true" autoPlay loop muted>
                 <source src={Video} type="video/mp4" />
             </video>
+
+            <div style={{height:'22px'}}></div>
+
+            <div className="hr"></div>
         </div>
     );
 }
