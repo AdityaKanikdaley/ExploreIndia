@@ -3,6 +3,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import "./Header.scss";
+import icon from "../../icon.png";
 
 function NavHeader() {
     return (
@@ -11,9 +12,9 @@ function NavHeader() {
                 <Navbar.Brand href="#home">
                     <img
                         alt=""
-                        src="https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png"
-                        width="35"
-                        height="35"
+                        src={icon}
+                        width="40"
+                        height="40"
                         className="d-inline-block align-top"
                     />{' '}
                     Explore India
