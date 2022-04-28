@@ -26,6 +26,7 @@ function Footer() {
                     <div className="col-sm-6 col-xs-12 col-md-3">
                         <h6>Quick Links</h6>
                         <ul className="footer-links">
+                            <li><a href="http://scanfcode.com/about/">Home</a></li>
                             <li><a href="http://scanfcode.com/about/">About</a></li>
                             <li><a href="http://scanfcode.com/contact/">Contact</a></li>
 

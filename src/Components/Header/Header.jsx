@@ -2,6 +2,8 @@ import { Navbar, Container, Nav } from 'react-bootstrap';
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 
+import "./Header.scss";
+
 function NavHeader() {
     return (
         <Navbar className='container-fluid' expand="lg" bg="dark" variant="dark">
