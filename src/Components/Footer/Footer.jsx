@@ -2,7 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faGithub, faLinkedin, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { BrowserRouter } from "react-router-dom";
-import { HashLink as Link} from "react-router-hash-link";
+// import { HashLink as Link} from "react-router-hash-link";
 
 import "./Footer.scss";
 
@@ -14,25 +14,27 @@ function Footer() {
                 <div className="row footer-row">
                     <div className="col-xs-12 col-sm-12 col-md-6 section">
                         <h6>About Me</h6>
-                        <p className="text-justify">Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative  to help the upcoming programmers with the code. Scanfcode focuses on providing the most efficient code or snippets as the code wants to be simple. We will help programmers build up concepts in different programming languages that include C, C++, Java, HTML, CSS, Bootstrap, JavaScript, PHP, Android, SQL and Algorithm.</p>
+                        <p className="text-justify">Hii, I'am <i>Aditya Kanikdaley, </i> a Frontend Application Developer, pursuing my <i>B.Tech in Vellore Institute of Technology, Bhopal.</i> My primary focus is on learning and applying concepts in different programming languages that include C, C++, Java, HTML, CSS, Bootstrap, JavaScript and SQL on frameworks like Flutter and React.js. I have made this website to guid people who are looking to <i>Visit</i> and <i>Explore</i> India.</p>
                     </div>
 
                     <div className="col-sm-6 col-xs-12 col-md-3">
-                        <h6>Technology Used</h6>
+                        <h6>Technologies Used</h6>
                         <ul className="footer-links">
                             <li><a href="https://reactjs.org/" target={"_blank"}>React</a></li>
-                            <li><a href="https://react-bootstrap.github.io/" target={"_blank"}>React-Bootstrap</a></li>
+                            <li><a href="https://react-bootstrap.github.io/" target={"_blank"}>Bootstrap</a></li>
                             <li><a href="https://www.npmjs.com/package/create-react-app-sass" target={"_blank"}>Scss</a></li>
                             <li><a href="https://v5.reactrouter.com/web/api/Route" target={"_blank"}>Routing</a></li>
+                            <li><a href="https://dev.to/njdevelopment/help-with-react-map-through-json-data-beh" target={"_blank"}>JSON Mapping</a></li>
                         </ul>
                     </div>
 
                     <div className="col-sm-6 col-xs-12 col-md-3">
                         <h6>Quick Links</h6>
                         <ul className="footer-links">
-                            <li><Link to='#home' smooth>Home</Link></li>
-                            <li><a href="http://scanfcode.com/about/">About</a></li>
-                            <li><a href="http://scanfcode.com/contact/">Contact</a></li>
+                            <li><a className="linkedin" href="http://www.linkedin.com/in/adityakanikdaley" target={'_blank'}><FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon> - LinkedIn</a></li>
+                            <li><a className="facebook" href="https://www.facebook.com/people/Aditya-Kanikdaley/100004353226781/" target={'_blank'}><FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon> - Facebook</a></li>
+                            <li><a className="github" href="https://github.com/AdityaKanikdaley" target={'_blank'}><FontAwesomeIcon icon={faGithub}></FontAwesomeIcon> - GitHub</a></li>
+                            <li><a className="instagram" href="https://www.instagram.com/aditya_kanikdaley/" target={'_blank'}><FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon> - Instagram</a></li>
                         </ul>
                     </div>
                 </div>
@@ -42,19 +44,10 @@ function Footer() {
             </div>
             <div className="container-fluid">
                 <div className="row footer-row">
-                    <div className="col-md-6 col-sm-12 col-xs-12">
-                        <p className="copyright-text">Copyright &copy; 2022a All Rights Reserved by  &nbsp;
-                            <a href="#">Aditya Kanikdaley</a>.
+                    <div>
+                        <p className="copyright-text">Copyright &copy; 2022 All Rights Reserved by  &nbsp;
+                            <a href="https://github.com/AdityaKanikdaley" target={'_blank'}>Aditya Kanikdaley</a>.
                         </p>
-                    </div>
-
-                    <div className="col-md-6 col-sm-12 col-xs-12">
-                        <ul className="social-icons">
-                            <li><a className="linkedin" href="#"><FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon></a></li>
-                            <li><a className="facebook" href="#"><FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon></a></li>
-                            <li><a className="github" href="#"><FontAwesomeIcon icon={faGithub}></FontAwesomeIcon></a></li>
-                            <li><a className="instagram" href="#"><FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon></a></li>
-                        </ul>
                     </div>
                 </div>
             </div>
