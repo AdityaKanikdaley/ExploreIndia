@@ -1,3 +1,19 @@
+.carousal-slider {
+    // padding: 10px;
+    width: 100%;
+    display: block;
+    margin: auto;
+    // border: 2px solid green;
+    z-index: 1;
+
+    .carousel-control-prev {
+        visibility: hidden !important;
+    }
+    .carousel-control-next {
+        visibility: hidden !important;
+    }
+}
+
 .item {
     display: block;
     align-items: center;
@@ -99,7 +115,17 @@ figure:hover+span {
     align-items: center;
     justify-content: center;
     // margin-top: 10px;
-    padding-top: 30px;
+    padding-top: 12px;
     // padding-bottom: 10px;
     color: white;
+}
+
+#sub-hr {
+    width: 7%;
+    color: white;
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
 }

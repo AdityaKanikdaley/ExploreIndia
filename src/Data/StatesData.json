@@ -1,40 +1,168 @@
 {
-    "north" : [
+    "states" : [
         {
-            "name" : "Delhi",
-            "src" : "https://image3.mouthshut.com/images/imagesp/925747858s.jpg"
+            "name" : "North",
+            "areas" : [
+                {
+                    "name" : "Delhi",
+                    "src" : "https://image3.mouthshut.com/images/imagesp/925747858s.jpg"
+                },
+                {
+                    "name" : "Haryana",
+                    "src" : "https://nationaltoday.com/wp-content/uploads/2021/10/haryana-day.jpg"
+                },
+                {
+                    "name" : "Himachal Pradesh",
+                    "src" : "https://www.holidify.com/images/bgImages/HIMACHAL-PRADESH.jpg"
+                },
+                {
+                    "name" : "Jammu & Kashmir",
+                    "src" : "https://peakvisor.com/img/news/Jammu-and-Kashmir-Krishansar-lake.jpg"
+                },
+                {
+                    "name" : "Punjab",
+                    "src" : "https://www.choicehotels.com/cms/images/choice-hotels/explore/explore-punjab/explore-punjab.jpg"
+                },
+                {
+                    "name" : "Rajasthan",
+                    "src" : "https://cdn.pixabay.com/photo/2016/09/27/05/22/india-1697593_1280.jpg"
+                },
+                {
+                    "name" : "Uttar Pradesh",
+                    "src" : "https://upload.wikimedia.org/wikipedia/commons/3/37/Taj_Mahal_%28105136313%29.jpeg"
+                },
+                {
+                    "name" : "Uttarakhand",
+                    "src" : "https://images.unsplash.com/photo-1610730349385-70d2a67a61fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHw%3D&w=1000&q=80"
+                },
+                {
+                    "name" : "Chandigarh",
+                    "src" : "https://image3.mouthshut.com/images/Restaurant/Photo/-67651_10889.jpg"
+                }
+            ]
         },
         {
-            "name" : "Haryana",
-            "src" : "https://nationaltoday.com/wp-content/uploads/2021/10/haryana-day.jpg"
+            "name" : "South",
+            "areas" : [
+                {
+                    "name" : "Delhi",
+                    "src" : "https://image3.mouthshut.com/images/imagesp/925747858s.jpg"
+                },
+                {
+                    "name" : "Haryana",
+                    "src" : "https://nationaltoday.com/wp-content/uploads/2021/10/haryana-day.jpg"
+                },
+                {
+                    "name" : "Himachal Pradesh",
+                    "src" : "https://www.holidify.com/images/bgImages/HIMACHAL-PRADESH.jpg"
+                },
+                {
+                    "name" : "Jammu & Kashmir",
+                    "src" : "https://peakvisor.com/img/news/Jammu-and-Kashmir-Krishansar-lake.jpg"
+                },
+                {
+                    "name" : "Punjab",
+                    "src" : "https://www.choicehotels.com/cms/images/choice-hotels/explore/explore-punjab/explore-punjab.jpg"
+                },
+                {
+                    "name" : "Rajasthan",
+                    "src" : "https://cdn.pixabay.com/photo/2016/09/27/05/22/india-1697593_1280.jpg"
+                },
+                {
+                    "name" : "Uttar Pradesh",
+                    "src" : "https://upload.wikimedia.org/wikipedia/commons/3/37/Taj_Mahal_%28105136313%29.jpeg"
+                },
+                {
+                    "name" : "Uttarakhand",
+                    "src" : "https://images.unsplash.com/photo-1610730349385-70d2a67a61fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHw%3D&w=1000&q=80"
+                },
+                {
+                    "name" : "Chandigarh",
+                    "src" : "https://image3.mouthshut.com/images/Restaurant/Photo/-67651_10889.jpg"
+                }
+            ]
         },
         {
-            "name" : "Himachal Pradesh",
-            "src" : "https://www.holidify.com/images/bgImages/HIMACHAL-PRADESH.jpg"
+            "name" : "East",
+            "areas" : [
+                {
+                    "name" : "Delhi",
+                    "src" : "https://image3.mouthshut.com/images/imagesp/925747858s.jpg"
+                },
+                {
+                    "name" : "Haryana",
+                    "src" : "https://nationaltoday.com/wp-content/uploads/2021/10/haryana-day.jpg"
+                },
+                {
+                    "name" : "Himachal Pradesh",
+                    "src" : "https://www.holidify.com/images/bgImages/HIMACHAL-PRADESH.jpg"
+                },
+                {
+                    "name" : "Jammu & Kashmir",
+                    "src" : "https://peakvisor.com/img/news/Jammu-and-Kashmir-Krishansar-lake.jpg"
+                },
+                {
+                    "name" : "Punjab",
+                    "src" : "https://www.choicehotels.com/cms/images/choice-hotels/explore/explore-punjab/explore-punjab.jpg"
+                },
+                {
+                    "name" : "Rajasthan",
+                    "src" : "https://cdn.pixabay.com/photo/2016/09/27/05/22/india-1697593_1280.jpg"
+                },
+                {
+                    "name" : "Uttar Pradesh",
+                    "src" : "https://upload.wikimedia.org/wikipedia/commons/3/37/Taj_Mahal_%28105136313%29.jpeg"
+                },
+                {
+                    "name" : "Uttarakhand",
+                    "src" : "https://images.unsplash.com/photo-1610730349385-70d2a67a61fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHw%3D&w=1000&q=80"
+                },
+                {
+                    "name" : "Chandigarh",
+                    "src" : "https://image3.mouthshut.com/images/Restaurant/Photo/-67651_10889.jpg"
+                }
+            ]
         },
         {
-            "name" : "Jammu & Kashmir",
-            "src" : "https://peakvisor.com/img/news/Jammu-and-Kashmir-Krishansar-lake.jpg"
-        },
-        {
-            "name" : "Punjab",
-            "src" : "https://www.choicehotels.com/cms/images/choice-hotels/explore/explore-punjab/explore-punjab.jpg"
-        },
-        {
-            "name" : "Rajasthan",
-            "src" : "https://cdn.pixabay.com/photo/2016/09/27/05/22/india-1697593_1280.jpg"
-        },
-        {
-            "name" : "Uttar Pradesh",
-            "src" : "https://upload.wikimedia.org/wikipedia/commons/3/37/Taj_Mahal_%28105136313%29.jpeg"
-        },
-        {
-            "name" : "Uttarakhand",
-            "src" : "https://images.unsplash.com/photo-1610730349385-70d2a67a61fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHw%3D&w=1000&q=80"
-        },
-        {
-            "name" : "Chandigarh",
-            "src" : "https://image3.mouthshut.com/images/Restaurant/Photo/-67651_10889.jpg"
+            "name" : "West",
+            "areas" : [
+                {
+                    "name" : "Delhi",
+                    "src" : "https://image3.mouthshut.com/images/imagesp/925747858s.jpg"
+                },
+                {
+                    "name" : "Haryana",
+                    "src" : "https://nationaltoday.com/wp-content/uploads/2021/10/haryana-day.jpg"
+                },
+                {
+                    "name" : "Himachal Pradesh",
+                    "src" : "https://www.holidify.com/images/bgImages/HIMACHAL-PRADESH.jpg"
+                },
+                {
+                    "name" : "Jammu & Kashmir",
+                    "src" : "https://peakvisor.com/img/news/Jammu-and-Kashmir-Krishansar-lake.jpg"
+                },
+                {
+                    "name" : "Punjab",
+                    "src" : "https://www.choicehotels.com/cms/images/choice-hotels/explore/explore-punjab/explore-punjab.jpg"
+                },
+                {
+                    "name" : "Rajasthan",
+                    "src" : "https://cdn.pixabay.com/photo/2016/09/27/05/22/india-1697593_1280.jpg"
+                },
+                {
+                    "name" : "Uttar Pradesh",
+                    "src" : "https://upload.wikimedia.org/wikipedia/commons/3/37/Taj_Mahal_%28105136313%29.jpeg"
+                },
+                {
+                    "name" : "Uttarakhand",
+                    "src" : "https://images.unsplash.com/photo-1610730349385-70d2a67a61fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHw%3D&w=1000&q=80"
+                },
+                {
+                    "name" : "Chandigarh",
+                    "src" : "https://image3.mouthshut.com/images/Restaurant/Photo/-67651_10889.jpg"
+                }
+            ]
         }
     ]
 }
