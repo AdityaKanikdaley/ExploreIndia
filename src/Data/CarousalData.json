@@ -1,34 +1,36 @@
 {
     "carousalData" : [
         {
-            "src": "https://media.cntraveller.in/wp-content/uploads/2018/12/jaipur-haw-mahal-shutterstock_559519123.jpg",
-            "altText": "First Slide",
-            "caption": "First Slide"
+            "src": "https://1.bp.blogspot.com/-CpKXS4fR_8k/XeEivS6MqCI/AAAAAAAAAvY/5zPv688wYYkNlUYCYnyqV05F-bbX58XHACLcBGAsYHQ/s1600/Statue%2BOf%2BUnity%2B%25281%2529.jpg",
+            "caption": "Statue Of Unity"
         },
         {
-            "src": "https://media.cntraveller.in/wp-content/uploads/2018/12/jaipur-haw-mahal-shutterstock_559519123.jpg",
-            "altText": "Second Slide",
-            "caption": "Second Slide"
+            "src": "https://wallpapercave.com/wp/wp5328008.jpg",
+            "caption": "Taj Mahal"
         },
         {
-            "src": "https://media.cntraveller.in/wp-content/uploads/2018/12/jaipur-haw-mahal-shutterstock_559519123.jpg",
-            "altText": "Third Slide",
-            "caption": "Third Slide"
+            "src": "https://wallpapercave.com/wp/wp6759674.jpg",
+            "caption": "The Ganga River"
         },
         {
-            "src": "https://media.cntraveller.in/wp-content/uploads/2018/12/jaipur-haw-mahal-shutterstock_559519123.jpg",
-            "altText": "Fourth Slide",
-            "caption": "Fourth Slide"
+            "src": "https://i.ytimg.com/vi/kgu6vcNLEC0/maxresdefault.jpg",
+            "caption": "Ajanta Caves"
         },
         {
-            "src": "https://media.cntraveller.in/wp-content/uploads/2018/12/jaipur-haw-mahal-shutterstock_559519123.jpg",
-            "altText": "Fifth Slide",
-            "caption": "Fifth Slide"
+            "src": "https://wallpapercave.com/wp/wp8609893.jpg",
+            "caption": "Fatehpur Sikri Fort"
         },
         {
-            "src": "https://media.cntraveller.in/wp-content/uploads/2018/12/jaipur-haw-mahal-shutterstock_559519123.jpg",
-            "altText": "Sixth Slide",
-            "caption": "Sixth Slide"
+            "src": "https://wallpapercave.com/wp/wp6702847.jpg",
+            "caption": "Jama Masjid"
+        },
+        {
+            "src": "https://images.pexels.com/photos/1098460/pexels-photo-1098460.jpeg?cs=srgb&dl=pexels-storishh-1098460.jpg&fm=jpg",
+            "caption": "Lotus Temple"
+        },
+        {
+            "src": "https://www.akshartours.com/wp-content/uploads/2020/08/Things-to-Do-in-Delhi.jpg",
+            "caption": "India Gate"
         }
     ]
 }
