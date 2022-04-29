@@ -1,7 +1,7 @@
 {
-    "states" : [
+    "zones" : [
         {
-            "name" : "North",
+            "name" : "North Zone",
             "areas" : [
                 {
                     "name" : "Delhi",
@@ -22,10 +22,6 @@
                 {
                     "name" : "Punjab",
                     "src" : "https://www.choicehotels.com/cms/images/choice-hotels/explore/explore-punjab/explore-punjab.jpg"
-                },
-                {
-                    "name" : "Rajasthan",
-                    "src" : "https://cdn.pixabay.com/photo/2016/09/27/05/22/india-1697593_1280.jpg"
                 },
                 {
                     "name" : "Uttar Pradesh",
@@ -42,125 +38,125 @@
             ]
         },
         {
-            "name" : "South",
+            "name" : "South Zone",
             "areas" : [
                 {
-                    "name" : "Delhi",
-                    "src" : "https://image3.mouthshut.com/images/imagesp/925747858s.jpg"
+                    "name" : "Andhra Pradesh ",
+                    "src" : "https://cdn.thewire.in/wp-content/uploads/2021/11/24122330/FEx0X57UcAElKxH.jpg"
                 },
                 {
-                    "name" : "Haryana",
-                    "src" : "https://nationaltoday.com/wp-content/uploads/2021/10/haryana-day.jpg"
+                    "name" : "Karnataka",
+                    "src" : "https://www.karnatakatourism.org/wp-content/uploads/2020/12/monuments.jpg"
                 },
                 {
-                    "name" : "Himachal Pradesh",
-                    "src" : "https://www.holidify.com/images/bgImages/HIMACHAL-PRADESH.jpg"
+                    "name" : "Lakshadweep",
+                    "src" : "https://blog.ipleaders.in/wp-content/uploads/2021/08/Dxg8XSgXQAAHMH3-1-1.jpg"
                 },
                 {
-                    "name" : "Jammu & Kashmir",
-                    "src" : "https://peakvisor.com/img/news/Jammu-and-Kashmir-Krishansar-lake.jpg"
+                    "name" : "Kerala",
+                    "src" : "https://media.audleytravel.com/-/media/images/home/indian-subcontinent/india/country-guides/kerala-for-the-first-time-visitor/75667681_kerala_house_boat_3000x1000.jpg"
                 },
                 {
-                    "name" : "Punjab",
-                    "src" : "https://www.choicehotels.com/cms/images/choice-hotels/explore/explore-punjab/explore-punjab.jpg"
+                    "name" : "Tamil Nadu",
+                    "src" : "https://cdn.britannica.com/12/100812-050-27483D5E/Mamallapuram-Shore-Temple-Chennai-India-Tamil-Nadu.jpg"
                 },
                 {
-                    "name" : "Rajasthan",
-                    "src" : "https://cdn.pixabay.com/photo/2016/09/27/05/22/india-1697593_1280.jpg"
+                    "name" : "Puducherry",
+                    "src" : "https://www.teahub.io/photos/full/144-1445194_photo-wallpaper-india-golden-temple-auroville-matrimandir-matrimandir.jpg"
                 },
                 {
-                    "name" : "Uttar Pradesh",
-                    "src" : "https://upload.wikimedia.org/wikipedia/commons/3/37/Taj_Mahal_%28105136313%29.jpeg"
-                },
-                {
-                    "name" : "Uttarakhand",
-                    "src" : "https://images.unsplash.com/photo-1610730349385-70d2a67a61fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHw%3D&w=1000&q=80"
-                },
-                {
-                    "name" : "Chandigarh",
-                    "src" : "https://image3.mouthshut.com/images/Restaurant/Photo/-67651_10889.jpg"
+                    "name" : "Andaman & Nicobar",
+                    "src" : "https://wallpapercave.com/wp/wp7333471.jpg"
                 }
             ]
         },
         {
-            "name" : "East",
+            "name" : "East Zone",
             "areas" : [
                 {
-                    "name" : "Delhi",
-                    "src" : "https://image3.mouthshut.com/images/imagesp/925747858s.jpg"
+                    "name" : "Bihar",
+                    "src" : "https://wallpaperaccess.com/full/3510412.jpg"
                 },
                 {
-                    "name" : "Haryana",
-                    "src" : "https://nationaltoday.com/wp-content/uploads/2021/10/haryana-day.jpg"
+                    "name" : "Sikkim",
+                    "src" : "https://images.unsplash.com/photo-1613339027986-b94d85708995?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c2lra2ltfGVufDB8fDB8fA%3D%3D&w=1000&q=80"
                 },
                 {
-                    "name" : "Himachal Pradesh",
-                    "src" : "https://www.holidify.com/images/bgImages/HIMACHAL-PRADESH.jpg"
+                    "name" : "Arunachal Pradesh",
+                    "src" : "https://images.unsplash.com/photo-1589808015717-a626de258af0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YXJ1bmFjaGFsJTIwcHJhZGVzaHxlbnwwfHwwfHw%3D&w=1000&q=80"
                 },
                 {
-                    "name" : "Jammu & Kashmir",
-                    "src" : "https://peakvisor.com/img/news/Jammu-and-Kashmir-Krishansar-lake.jpg"
+                    "name" : "Nagaland",
+                    "src" : "https://images.unsplash.com/photo-1585816738218-1d34c7ab4e23?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8bmFnYWxhbmR8ZW58MHx8MHx8&w=1000&q=80"
                 },
                 {
-                    "name" : "Punjab",
-                    "src" : "https://www.choicehotels.com/cms/images/choice-hotels/explore/explore-punjab/explore-punjab.jpg"
+                    "name" : "Manipur",
+                    "src" : "https://images.unsplash.com/photo-1587635861480-414767bd0198?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWFuaXB1cnxlbnwwfHwwfHw%3D&w=1000&q=80"
                 },
                 {
-                    "name" : "Rajasthan",
-                    "src" : "https://cdn.pixabay.com/photo/2016/09/27/05/22/india-1697593_1280.jpg"
+                    "name" : "Mizoram",
+                    "src" : "https://images.unsplash.com/photo-1635606486436-7d0c994a260a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bWl6b3JhbXxlbnwwfHwwfHw%3D&w=1000&q=80"
                 },
                 {
-                    "name" : "Uttar Pradesh",
-                    "src" : "https://upload.wikimedia.org/wikipedia/commons/3/37/Taj_Mahal_%28105136313%29.jpeg"
+                    "name" : "Tripura",
+                    "src" : "https://image3.mouthshut.com/images/imagesp/925075160s.jpg"
                 },
                 {
-                    "name" : "Uttarakhand",
-                    "src" : "https://images.unsplash.com/photo-1610730349385-70d2a67a61fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHw%3D&w=1000&q=80"
+                    "name" : "Meghalaya",
+                    "src" : "https://images.unsplash.com/photo-1625826415766-001bd75aaf52?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bWVnaGFsYXlhfGVufDB8fDB8fA%3D%3D&w=1000&q=80"
                 },
                 {
-                    "name" : "Chandigarh",
-                    "src" : "https://image3.mouthshut.com/images/Restaurant/Photo/-67651_10889.jpg"
+                    "name" : "Assam",
+                    "src" : "https://wallpapercave.com/wp/wp9822330.jpg"
+                },
+                {
+                    "name" : "West Bengal",
+                    "src" : "https://wallpapercave.com/wp/wp4190123.jpg"
+                },
+                {
+                    "name" : "Jharkhand",
+                    "src" : "https://images.unsplash.com/photo-1609991148865-40902bd1f594?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8amhhcmtoYW5kfGVufDB8fDB8fA%3D%3D&w=1000&q=80"
+                },
+                {
+                    "name" : "Odisha",
+                    "src" : "https://images.unsplash.com/photo-1598323646582-18d2101c9aad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8b2Rpc2hhfGVufDB8fDB8fA%3D%3D&w=1000&q=80"
+                },
+                {
+                    "name" : "Chhattisgarh",
+                    "src" : "https://i.pinimg.com/originals/a4/f1/15/a4f1150e3d8cb0ccae98fa5e6e701e8e.jpg"
                 }
             ]
         },
         {
-            "name" : "West",
+            "name" : "West Zone",
             "areas" : [
-                {
-                    "name" : "Delhi",
-                    "src" : "https://image3.mouthshut.com/images/imagesp/925747858s.jpg"
-                },
-                {
-                    "name" : "Haryana",
-                    "src" : "https://nationaltoday.com/wp-content/uploads/2021/10/haryana-day.jpg"
-                },
-                {
-                    "name" : "Himachal Pradesh",
-                    "src" : "https://www.holidify.com/images/bgImages/HIMACHAL-PRADESH.jpg"
-                },
-                {
-                    "name" : "Jammu & Kashmir",
-                    "src" : "https://peakvisor.com/img/news/Jammu-and-Kashmir-Krishansar-lake.jpg"
-                },
-                {
-                    "name" : "Punjab",
-                    "src" : "https://www.choicehotels.com/cms/images/choice-hotels/explore/explore-punjab/explore-punjab.jpg"
-                },
                 {
                     "name" : "Rajasthan",
                     "src" : "https://cdn.pixabay.com/photo/2016/09/27/05/22/india-1697593_1280.jpg"
                 },
                 {
-                    "name" : "Uttar Pradesh",
-                    "src" : "https://upload.wikimedia.org/wikipedia/commons/3/37/Taj_Mahal_%28105136313%29.jpeg"
+                    "name" : "Madhya Pradesh",
+                    "src" : "https://tourism.mp.gov.in/images/Gallary/FooterGallery/01082018060705MAHESHWAR%20-%20FORT.jpg"
                 },
                 {
-                    "name" : "Uttarakhand",
-                    "src" : "https://images.unsplash.com/photo-1610730349385-70d2a67a61fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHw%3D&w=1000&q=80"
+                    "name" : "Gujarat",
+                    "src" : "https://1.bp.blogspot.com/-CpKXS4fR_8k/XeEivS6MqCI/AAAAAAAAAvY/5zPv688wYYkNlUYCYnyqV05F-bbX58XHACLcBGAsYHQ/s1600/Statue%2BOf%2BUnity%2B%25281%2529.jpg"
                 },
                 {
-                    "name" : "Chandigarh",
-                    "src" : "https://image3.mouthshut.com/images/Restaurant/Photo/-67651_10889.jpg"
+                    "name" : "Daman & Diu",
+                    "src" : "https://images.unsplash.com/photo-1572797751206-35424c13a703?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZGFtYW4lMjBhbmQlMjBkaXV8ZW58MHx8MHx8&w=1000&q=80"
+                },
+                {
+                    "name" : "Dadra & Nagar Haveli ",
+                    "src" : "http://www.tourismdddnh.in/wp-content/uploads/2020/08/Van-Ganga-Lake-Gardem-Dadra-option-1.jpg"
+                },
+                {
+                    "name" : "Maharashtra",
+                    "src" : "https://holidayswithsr.com/wp-content/uploads/2020/05/mahabaleshwar-pratapgarh-fort-150117237847-orijgp.jpg"
+                },
+                {
+                    "name" : "Goa",
+                    "src" : "https://images.unsplash.com/photo-1587922546307-776227941871?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Z29hfGVufDB8fDB8fA%3D%3D&w=1000&q=80"
                 }
             ]
         }

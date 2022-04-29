@@ -8,15 +8,15 @@ import states from "../../Data/StatesData.json";
 
 function States() {
     return (
-        <Carousel className="carousal-slider">
+        <Carousel className="carousal-slider" fade>
             {
-                states.states.map((items, i) => {
+                states.zones.map((items, i) => {
                     return (
-                        <Carousel.Item interval={30000} key={i}>
+                        <Carousel.Item interval={4000} key={i}>
                             <div>
                                 <h3 className="sub-title">{items.name}</h3>
                                 <hr id="sub-hr"></hr>
-                                
+
                                 <div className="container-fluid">
                                     <div className="row this-row">
                                         {
@@ -37,7 +37,7 @@ function States() {
                                     </div>
                                 </div>
 
-                                <div style={{height:'90px'}}></div>
+                                <div style={{ height: '90px' }}></div>
                             </div>
                         </Carousel.Item>
                     );

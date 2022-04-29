@@ -37,7 +37,7 @@ root.render(
       <TopPlaces />
 
       <div style={{ height: '80px' }} id='states-to-visit' />
-      <Title title="States to Visit" />
+      <Title title="States & UTs to Visit" />
       <States />
 
     </div>
