@@ -5,10 +5,10 @@ import ReactDOM from 'react-dom/client';
 import BootCarousal from './Components/CarousalSlider/BootCarousal';
 import NavHeader from './Components/Header/Header';
 import VideoPlayer from './Components/VideoPlayer/Player';
-import Divider from './Components/Divider/Divider';
 import TopPlaces from './Components/TopPlaces/TopPlaces';
 import States from './Components/States/States';
 import Footer from './Components/Footer/Footer';
+import Title from './Components/Title/Title';
 
 import './index.scss';
 
@@ -16,55 +16,33 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <div className='body'>
 
-    {/* header nav */}
     <NavHeader />
-    {/* <div className='big-margin' /> */}
-    {/* <div style={{height:'5px'}} /> */}
 
     <div className='component-body'>
 
       <div className='big-hr-line' />
 
-      {/* intro video - autoplay video */}
+      <Title title="Start Exploring India" />
+      <div style={{ height: '25px' }} />
       <VideoPlayer />
 
-      {/* popular in india - carousal  */}
-      {/* <div className='hr-line' /> */}
-      {/* <Divider /> */}
-      <div style={{height:'80px'}}  id='popular-carousal' />
-      <h1 className='h1-headings'>Popular in India</h1>
-      <div style={{height:'25px'}} />
-      {/* <Divider /> */}
-
-      {/* <div className='hr-line' /> */}
+      <div style={{ height: '80px' }} id='popular-carousal' />
+      <Title title="Popular in India" />
+      <div style={{ height: '25px' }} />
       <BootCarousal />
 
-      {/* top places to visit - 2 rows of carousal */}
-      {/* <div className='hr-line' /> */}
-      {/* <Divider /> */}
-      <div style={{height:'80px'}}  id='top-places' />
-      <h1 className='h1-headings'>Top Places to Visit</h1>
-      {/* <Divider /> */}
 
-      {/* top places to visit */}
-      {/* <div className='hr-line' /> */}
+      <div style={{ height: '80px' }} id='top-places' />
+      <Title title="Top Places to Visit" />
       <TopPlaces />
 
-      {/* top places to visit - 2 rows of carousal */}
-      {/* <div className='hr-line' />
-      <Divider /> */}
-      <div style={{height:'80px'}}  id='states-to-visit' />
-      <h1 className='h1-headings'>States to Visit</h1>
-      {/* <Divider /> */}
-
-      {/* states */}
-      {/* <div className='hr-line' /> */}
+      <div style={{ height: '80px' }} id='states-to-visit' />
+      <Title title="States to Visit" />
       <States />
 
     </div>
 
     <div className='big-hr-line' />
-    {/* footer */}
     <Footer />
 
   </div>
