@@ -17,7 +17,7 @@ function BootCarousal() {
                             <img 
                                 className = "d-block image"
                                 src={items.src}
-                                alt={items.altText}
+                                alt=""
                             />
                             <Carousel.Caption className='caption'>
                                 <h3>{items.caption}</h3>

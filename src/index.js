@@ -18,6 +18,7 @@ root.render(
 
     {/* header nav */}
     <NavHeader />
+    {/* <div className='big-margin' /> */}
     {/* <div style={{height:'5px'}} /> */}
 
     <div className='component-body'>
@@ -28,32 +29,36 @@ root.render(
       <VideoPlayer />
 
       {/* popular in india - carousal  */}
-      <div className='hr-line' />
-      <Divider />
+      {/* <div className='hr-line' /> */}
+      {/* <Divider /> */}
+      <div style={{height:'80px'}}  id='popular-carousal' />
       <h1 className='h1-headings'>Popular in India</h1>
-      <Divider />
+      <div style={{height:'25px'}} />
+      {/* <Divider /> */}
 
-      <div className='hr-line' />
+      {/* <div className='hr-line' /> */}
       <BootCarousal />
 
       {/* top places to visit - 2 rows of carousal */}
-      <div className='hr-line' />
-      <Divider />
+      {/* <div className='hr-line' /> */}
+      {/* <Divider /> */}
+      <div style={{height:'80px'}}  id='top-places' />
       <h1 className='h1-headings'>Top Places to Visit</h1>
-      <Divider />
+      {/* <Divider /> */}
 
       {/* top places to visit */}
-      <div className='hr-line' />
+      {/* <div className='hr-line' /> */}
       <TopPlaces />
 
       {/* top places to visit - 2 rows of carousal */}
-      <div className='hr-line' />
-      <Divider />
+      {/* <div className='hr-line' />
+      <Divider /> */}
+      <div style={{height:'80px'}}  id='states-to-visit' />
       <h1 className='h1-headings'>States to Visit</h1>
-      <Divider />
+      {/* <Divider /> */}
 
       {/* states */}
-      <div className='hr-line' />
+      {/* <div className='hr-line' /> */}
       <States />
 
     </div>

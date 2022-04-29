@@ -16,7 +16,7 @@ import icon from "../../icon.png";
 function NavHeader() {
     return (
         <BrowserRouter>
-            <Navbar className='container-fluid nav-position' expand="lg" bg="dark" variant="dark">
+            <Navbar className='container-fluid nav-position' expand="lg" bg="black" variant="dark">
                 <Container>
                     <Navbar.Brand href="#">
                         <img
@@ -33,10 +33,12 @@ function NavHeader() {
 
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="ms-auto">
-                            <Link className='nav-links' to='#home' smooth>Home</Link>
-                            <Link className='nav-links' to='#footer' smooth>About</Link>
-                            <Link className='nav-links' to='#home' smooth>Map</Link>
-                            <Link className='nav-links' to='#footer' smooth>Contact</Link>
+                            <Link className='nav-links' to='#' smooth>Home</Link>
+                            <Link className='nav-links' to='#popular-carousal' smooth>Popular</Link>
+                            <Link className='nav-links' to='#top-places' smooth>Top Places</Link>
+                            <Link className='nav-links' to='#states-to-visit' smooth>States</Link>
+                            {/* <Link className='nav-links' to='#home' smooth>Map</Link> */}
+                            <Link className='nav-links' to='#footer' smooth>About Me</Link>
 
                             {/* <Nav.Link className='nav-links' href="#home">About</Nav.Link> */}
                         </Nav>
