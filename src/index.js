@@ -9,9 +9,11 @@ import TopPlaces from './Components/TopPlaces/TopPlaces';
 import States from './Components/States/States';
 import Footer from './Components/Footer/Footer';
 import Title from './Components/Title/Title';
+import MainTitle from './Components/Title/MainTitle';
 
 import './index.scss';
 
+// refer: https://reactjs.org/docs/strict-mode.html
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <div className='body'>
@@ -22,7 +24,7 @@ root.render(
 
       <div className='big-hr-line' />
 
-      <Title title="Start Exploring India" />
+      <MainTitle title1="Welcome !" title2="Start Exploring India" />
       <div style={{ height: '25px' }} />
       <VideoPlayer />
 
