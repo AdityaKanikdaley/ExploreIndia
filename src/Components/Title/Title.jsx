@@ -3,8 +3,8 @@ import { useTypewriter, Cursor } from "react-simple-typewriter";
 
 import "./Title.scss";
 
-export default function Title (props) {
-    
+export default function Title(props) {
+
     const { text } = useTypewriter({
         words: [`${props.title}`],
         loop: 0,
@@ -14,7 +14,7 @@ export default function Title (props) {
     return (
         <h1 className='h1-headings'>
             <span>
-                { text }
+                {text}
                 <Cursor cursorStyle="_" />
             </span>
         </h1>

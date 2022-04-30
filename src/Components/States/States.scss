@@ -1,19 +1,15 @@
 #states-carousel {
-    // padding: 10px;
     width: 100%;
     display: block;
     margin: auto;
-    // border: 2px solid green;
     z-index: 1;
 
     .carousel-control-prev {
         visibility: hidden !important;
-        // position: relative;
     }
 
     .carousel-control-next {
         visibility: hidden !important;
-        // position: relative;
     }
 
     .carousel-indicators {
@@ -42,7 +38,6 @@
 
 .column div {
     position: relative;
-    // float: left;
     width: 200px;
     height: 200px;
     margin: auto;
@@ -123,13 +118,9 @@ figure:hover+span {
     display: flex;
     align-items: center;
     justify-content: center;
-    // margin-top: 10px;
     padding-top: 20px;
-    // padding-bottom: 10px;
     color: white;
-
     margin-top: 7px;
- 
     margin-bottom: -2rem;
 }
 

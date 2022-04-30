@@ -3,15 +3,10 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import { BrowserRouter } from 'react-router-dom';
-import { HashLink as Link} from "react-router-hash-link";
+import { HashLink as Link } from "react-router-hash-link";
 
 import "./Header.scss";
 import icon from "../../icon.png";
-
-//importing components
-// import VideoPlayer from '../VideoPlayer/Player';
-// import Footer from '../Footer/Footer';
-
 
 function NavHeader() {
     return (
@@ -37,10 +32,7 @@ function NavHeader() {
                             <Link className='nav-links' to='#popular-carousal' smooth>Popular</Link>
                             <Link className='nav-links' to='#top-places' smooth>Top Places</Link>
                             <Link className='nav-links' to='#states-to-visit' smooth>States & UTs</Link>
-                            {/* <Link className='nav-links' to='#home' smooth>Map</Link> */}
                             <Link className='nav-links' to='#footer' smooth>About Me</Link>
-
-                            {/* <Nav.Link className='nav-links' href="#home">About</Nav.Link> */}
                         </Nav>
                     </Navbar.Collapse>
 

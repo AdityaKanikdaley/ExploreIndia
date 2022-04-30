@@ -1,6 +1,5 @@
 import React from "react";
 import Video from "./Video.mp4";
-// import Divider from "../Divider/Divider";
 
 import './Player.scss';
 

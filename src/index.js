@@ -50,9 +50,12 @@ root.render(
   </div>
 );
 
-//header nav
-//intro video -> autoplay video
-//popular in india -> carousal
-//top places to visit
-//states -> hover to see capitals (grid view)
-//footer
+/*
+  -- index --
+  header nav
+  intro video -> autoplay video
+  popular in india -> carousal
+  top places to visit
+  states and uts -> hover to see names (round view)
+  footer
+*/
