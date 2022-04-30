@@ -69,6 +69,7 @@ function TopPlaces() {
 
             <br></br>
             <br></br>
+            <br></br>
 
             <div id="title-container">
                 <div id="sub-title-left"></div>
