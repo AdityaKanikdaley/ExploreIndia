@@ -20,21 +20,21 @@ function Footer() {
                     <div className="col-sm-6 col-xs-12 col-md-3">
                         <h6>Technologies Used</h6>
                         <ul className="footer-links">
-                            <li><a href="https://reactjs.org/" target={"_blank"}>React</a></li>
-                            <li><a href="https://react-bootstrap.github.io/" target={"_blank"}>Bootstrap</a></li>
-                            <li><a href="https://www.npmjs.com/package/create-react-app-sass" target={"_blank"}>Scss</a></li>
-                            <li><a href="https://v5.reactrouter.com/web/api/Route" target={"_blank"}>Routing</a></li>
-                            <li><a href="https://dev.to/njdevelopment/help-with-react-map-through-json-data-beh" target={"_blank"}>JSON Mapping</a></li>
+                            <li><a href="https://reactjs.org/" target={"_blank"} rel="noreferrer">React</a></li>
+                            <li><a href="https://react-bootstrap.github.io/" target={"_blank"} rel="noreferrer">Bootstrap</a></li>
+                            <li><a href="https://www.npmjs.com/package/create-react-app-sass" target={"_blank"} rel="noreferrer">Scss</a></li>
+                            <li><a href="https://v5.reactrouter.com/web/api/Route" target={"_blank"} rel="noreferrer">Routing</a></li>
+                            <li><a href="https://dev.to/njdevelopment/help-with-react-map-through-json-data-beh" target={"_blank"} rel="noreferrer">JSON Mapping</a></li>
                         </ul>
                     </div>
 
                     <div className="col-sm-6 col-xs-12 col-md-3">
                         <h6>Quick Links</h6>
                         <ul className="footer-links">
-                            <li><a className="linkedin" href="http://www.linkedin.com/in/adityakanikdaley" target={'_blank'}><FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon> - LinkedIn</a></li>
-                            <li><a className="facebook" href="https://www.facebook.com/people/Aditya-Kanikdaley/100004353226781/" target={'_blank'}><FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon> - Facebook</a></li>
-                            <li><a className="github" href="https://github.com/AdityaKanikdaley" target={'_blank'}><FontAwesomeIcon icon={faGithub}></FontAwesomeIcon> - GitHub</a></li>
-                            <li><a className="instagram" href="https://www.instagram.com/aditya_kanikdaley/" target={'_blank'}><FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon> - Instagram</a></li>
+                            <li><a className="linkedin" href="http://www.linkedin.com/in/adityakanikdaley" target={'_blank'} rel="noreferrer"><FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon> - LinkedIn</a></li>
+                            <li><a className="facebook" href="https://www.facebook.com/people/Aditya-Kanikdaley/100004353226781/" target={'_blank'} rel="noreferrer"><FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon> - Facebook</a></li>
+                            <li><a className="github" href="https://github.com/AdityaKanikdaley" target={'_blank'} rel="noreferrer"><FontAwesomeIcon icon={faGithub}></FontAwesomeIcon> - GitHub</a></li>
+                            <li><a className="instagram" href="https://www.instagram.com/aditya_kanikdaley/" target={'_blank'} rel="noreferrer"><FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon> - Instagram</a></li>
                         </ul>
                     </div>
                 </div>
@@ -46,7 +46,7 @@ function Footer() {
                 <div className="row footer-row">
                     <div>
                         <p className="copyright-text">Copyright &copy; 2022 All Rights Reserved by  &nbsp;
-                            <a href="https://github.com/AdityaKanikdaley" target={'_blank'}>Aditya Kanikdaley</a>.
+                            <a href="https://github.com/AdityaKanikdaley" target={'_blank'} rel="noreferrer">Aditya Kanikdaley</a>.
                         </p>
                     </div>
                 </div>

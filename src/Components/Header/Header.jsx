@@ -22,11 +22,11 @@ function NavHeader() {
                         <img
                             alt=""
                             src={icon}
-                            width="40"
-                            height="40"
-                            className="d-inline-block align-top"
+                            width="80"
+                            height="50"
+                            className="d-inline-block align-middle"
                         />{' '}
-                        <h2>Explore India</h2>
+                        <h2 className="align-middle">Explore India</h2>
                     </Navbar.Brand>
 
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" className='justify-content-end' />
@@ -36,7 +36,7 @@ function NavHeader() {
                             <Link className='nav-links' to='#' smooth>Home</Link>
                             <Link className='nav-links' to='#popular-carousal' smooth>Popular</Link>
                             <Link className='nav-links' to='#top-places' smooth>Top Places</Link>
-                            <Link className='nav-links' to='#states-to-visit' smooth>States</Link>
+                            <Link className='nav-links' to='#states-to-visit' smooth>States & UTs</Link>
                             {/* <Link className='nav-links' to='#home' smooth>Map</Link> */}
                             <Link className='nav-links' to='#footer' smooth>About Me</Link>
 

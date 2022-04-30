@@ -59,7 +59,7 @@ function TopPlaces() {
                                 <div className="card-body">
                                     <h5 className="card-title">{items.title}</h5>
                                     <p className="card-text">{items.context}</p>
-                                    <a href={items.buttonLink} className="btn btn-secondary">Visit this Card</a>
+                                    <a href={items.buttonLink} target='_blank' rel="noreferrer" className="btn btn-secondary">Visit this Card</a>
                                 </div>
                             </div>
                         );
@@ -95,7 +95,7 @@ function TopPlaces() {
                                 <div className="card-body">
                                     <h5 className="card-title">{items.title}</h5>
                                     <p className="card-text">{items.context}</p>
-                                    <a href={items.buttonLink} className="btn btn-secondary">Visit this Card</a>
+                                    <a href={items.buttonLink} target='_blank' rel="noreferrer" className="btn btn-secondary">Visit this Card</a>
                                 </div>
                             </div>
                         );
