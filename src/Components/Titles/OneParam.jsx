@@ -1,7 +1,7 @@
 import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 
-import "./Title.scss";
+import "./Titles.scss";
 
 export default function Title(props) {
 

@@ -8,8 +8,8 @@ import VideoPlayer from './Components/VideoPlayer/Player';
 import TopPlaces from './Components/TopPlaces/TopPlaces';
 import States from './Components/States/States';
 import Footer from './Components/Footer/Footer';
-import Title from './Components/Title/Title';
-import MainTitle from './Components/Title/MainTitle';
+import OneParas from './Components/Titles/OneParam'
+import TwoParams from './Components/Titles/TwoParams';
 
 import './index.scss';
 
@@ -24,22 +24,22 @@ root.render(
 
       <div className='big-hr-line' />
 
-      <MainTitle title1="Welcome !" title2="Start Exploring India" />
+      <TwoParams title1="Welcome !" title2="Start Exploring India" />
       <div style={{ height: '25px' }} />
       <VideoPlayer />
 
       <div style={{ height: '80px' }} id='popular-carousal' />
-      <MainTitle title1="Popular in India" title2="Must Visit"/>
+      <TwoParams title1="Popular in India" title2="Must Visit"/>
       <div style={{ height: '25px' }} />
       <Popular />
 
 
       <div style={{ height: '80px' }} id='top-places' />
-      <Title title="Top Places to Visit" />
+      <OneParas title="Top Places to Visit" />
       <TopPlaces />
 
       <div style={{ height: '80px' }} id='states-to-visit' />
-      <Title title="States & UTs to Visit" />
+      <OneParas title="States & UTs to Visit" />
       <States />
 
     </div>
