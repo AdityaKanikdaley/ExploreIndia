@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter } from 'react-router-dom';
 import { HashLink as Link } from "react-router-hash-link";
 
-import "./Header.scss";
+import "./NavHeader.scss";
 import icon from "../../icon.png";
 
 function NavHeader() {

@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 
 //components imports
 import Popular from './Components/Popular/Popular';
-import NavHeader from './Components/Header/Header';
+import NavHeader from './Components/NavHeader/NavHeader';
 import VideoPlayer from './Components/VideoPlayer/Player';
 import TopPlaces from './Components/TopPlaces/TopPlaces';
 import States from './Components/States/States';
