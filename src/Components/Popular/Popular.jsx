@@ -2,13 +2,13 @@ import { Carousel } from 'react-bootstrap'
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import "./BootCarousal.scss";
+import "./Popular.scss";
 
 import carousalItems from "../../Data/CarousalData.json"
 
-function BootCarousal() {
+function Poplar() {
     return (
-        <Carousel className='carousal-slider'>
+        <Carousel className='carousal-slider' id='popular-carousel'>
             {
                 carousalItems.carousalData.map((items, i) => {
                     return (
@@ -29,4 +29,4 @@ function BootCarousal() {
     );
 }
 
-export default BootCarousal;
+export default Poplar;

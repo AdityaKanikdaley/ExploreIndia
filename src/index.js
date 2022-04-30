@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 
 //components imports
-import BootCarousal from './Components/CarousalSlider/BootCarousal';
+import Popular from './Components/Popular/Popular';
 import NavHeader from './Components/Header/Header';
 import VideoPlayer from './Components/VideoPlayer/Player';
 import TopPlaces from './Components/TopPlaces/TopPlaces';
@@ -29,9 +29,9 @@ root.render(
       <VideoPlayer />
 
       <div style={{ height: '80px' }} id='popular-carousal' />
-      <Title title="Popular in India" />
+      <MainTitle title1="Popular in India" title2="Must Visit"/>
       <div style={{ height: '25px' }} />
-      <BootCarousal />
+      <Popular />
 
 
       <div style={{ height: '80px' }} id='top-places' />

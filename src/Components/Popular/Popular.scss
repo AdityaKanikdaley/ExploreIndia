@@ -1,8 +1,19 @@
-.carousal-slider {
+#popular-carousel {
     width: 100%;
     display: block;
     margin: auto;
     z-index: 1;
+
+    .carousel-control-prev {
+        visibility: hidden !important;
+    }
+    .carousel-control-next {
+        visibility: hidden !important;
+    }
+
+    .carousel-inner {
+        border-radius: 8px;
+    }
 }
 
 .image {
