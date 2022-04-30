@@ -8,15 +8,17 @@ import states from "../../Data/StatesData.json";
 
 function States() {
     return (
-        <Carousel className="carousal-slider" fade>
+        <Carousel className="carousal-slider" id="states-carousel" fade>
             {
                 states.zones.map((items, i) => {
                     return (
                         <Carousel.Item interval={4000} key={i}>
                             <div>
+            
                                 <h3 className="sub-title">{items.name}</h3>
-                                <hr id="sub-hr"></hr>
+                                {/* <hr id="sub-hr"></hr> */}
 
+                                <br></br>
                                 <div className="container-fluid">
                                     <div className="row this-row">
                                         {

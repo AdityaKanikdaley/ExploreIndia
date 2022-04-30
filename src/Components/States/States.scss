@@ -1,4 +1,4 @@
-.carousal-slider {
+#states-carousel {
     // padding: 10px;
     width: 100%;
     display: block;
@@ -8,10 +8,18 @@
 
     .carousel-control-prev {
         visibility: hidden !important;
+        // position: relative;
     }
 
     .carousel-control-next {
         visibility: hidden !important;
+        // position: relative;
+    }
+
+    .carousel-indicators {
+        margin-top: 8vmin;
+        margin-bottom: -5rem;
+        position: inherit;
     }
 }
 
@@ -116,9 +124,13 @@ figure:hover+span {
     align-items: center;
     justify-content: center;
     // margin-top: 10px;
-    padding-top: 12px;
+    padding-top: 20px;
     // padding-bottom: 10px;
     color: white;
+
+    margin-top: 7px;
+ 
+    margin-bottom: -2rem;
 }
 
 #sub-hr {
