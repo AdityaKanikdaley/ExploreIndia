@@ -31,14 +31,15 @@ function TopPlaces() {
 
         <div>
 
-            <br></br>
-            <br></br>
+            <div style={{height:'50px'}}></div>
 
             <div id="title-container">
                 <div id="sub-title-left"></div>
                 <h3 id="sub-title-center">Parks</h3>
                 <div id="sub-title-right"></div>
             </div>
+
+            <div style={{height:'20px'}}></div>
 
             <Carousel
                 ssr={false}
@@ -67,9 +68,7 @@ function TopPlaces() {
 
             </Carousel>
 
-            <br></br>
-            <br></br>
-            <br></br>
+            <div style={{height:'60px'}}></div>
 
             <div id="title-container">
                 <div id="sub-title-left"></div>
@@ -77,6 +76,8 @@ function TopPlaces() {
                 <div id="sub-title-right"></div>
             </div>
 
+            <div style={{height:'20px'}}></div>
+            
             <Carousel
                 ssr={false}
                 infinite={true}
