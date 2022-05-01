@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 import "./Popular.scss";
 
-import carousalItems from "../../Data/CarousalData.json"
+import carousalItems from "../../Data/Popular.json"
 
 function Poplar() {
     return (
