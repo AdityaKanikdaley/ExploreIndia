@@ -8,11 +8,11 @@ import states from "../../Data/StatesData.json";
 
 function States() {
     return (
-        <Carousel className="carousal-slider" id="states-carousel" fade>
+        <Carousel className="carousal-slider" id="states-carousel" fade touch={false}>
             {
                 states.zones.map((items, i) => {
                     return (
-                        <Carousel.Item interval={4000} key={i}>
+                        <Carousel.Item interval={6000} key={i}>
                             <div>
 
                                 <h3 className="sub-title">{items.name}</h3>
