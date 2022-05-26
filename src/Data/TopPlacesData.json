@@ -1,115 +1,114 @@
 {
-    "parks" : [
+    "parks": [
         {
-            "src" : "https://i.pinimg.com/originals/9c/19/33/9c19331d9ee5192c45ad8c27f59f6493.jpg",
-            "title" : "Gir National Park",
-            "context" : "Gir Forest National Park is a wildlife sanctuary in Gujarat, western India. It was established to protect Asiatic lions and elephants.",
-            "buttonLink" : "https://www.girnationalpark.in/"
+            "src": "https://i.pinimg.com/originals/9c/19/33/9c19331d9ee5192c45ad8c27f59f6493.jpg",
+            "title": "Gir National Park",
+            "context": "Gir Forest National Park is a wildlife sanctuary in Gujarat, western India. It was established to protect Asiatic lions and elephants.",
+            "buttonLink": "https://www.girnationalpark.in/"
         },
         {
-            "src" : "https://rajasthanstudio.com/wp-content/uploads/2022/01/e9.jpeg",
-            "title" : "Kanha Tiger Reserve",
-            "context" : "Kanha National Park, also known as Kanha Tiger Reserve, is a vast expanse of grassland and forest in the central Indian state of Madhya Pradesh.",
-            "buttonLink" : "https://www.kanha-national-park.com/"
+            "src": "https://rajasthanstudio.com/wp-content/uploads/2022/01/e9.jpeg",
+            "title": "Kanha Tiger Reserve",
+            "context": "Kanha National Park, also known as Kanha Tiger Reserve, is a vast expanse of grassland and forest in the central Indian state of Madhya Pradesh.",
+            "buttonLink": "https://www.kanha-national-park.com/"
         },
         {
-            "src" : "https://i.pinimg.com/originals/76/4e/e2/764ee2a0625523612fb1ec721c454e88.jpg",
-            "title" : "Ranthambore National Park",
-            "context" : "Ranthambore National Park is a vast wildlife reserve near the town of Sawai Madhopur in Rajasthan, northern India.",
-            "buttonLink" : "https://www.ranthamborenationalpark.com/"
+            "src": "https://i.pinimg.com/originals/76/4e/e2/764ee2a0625523612fb1ec721c454e88.jpg",
+            "title": "Ranthambore National Park",
+            "context": "Ranthambore National Park is a vast wildlife reserve near the town of Sawai Madhopur in Rajasthan, northern India.",
+            "buttonLink": "https://www.ranthamborenationalpark.com/"
         },
         {
-            "src" : "https://images7.alphacoders.com/360/thumb-1920-360898.jpg",
-            "title" : "Jim Corbett National Park",
-            "context" : "Jim Corbett National Park is a forested wildlife sanctuary in northern India’s Uttarakhand State. Rich in flora and fauna, including crocodiles, etc.",
-            "buttonLink" : "https://www.corbettnationalpark.in/"
+            "src": "https://images7.alphacoders.com/360/thumb-1920-360898.jpg",
+            "title": "Jim Corbett National Park",
+            "context": "Jim Corbett National Park is a forested wildlife sanctuary in northern India’s Uttarakhand State. Rich in flora and fauna, including crocodiles, etc.",
+            "buttonLink": "https://www.corbettnationalpark.in/"
         },
         {
-            "src" : "https://wallpaperaccess.com/full/1780438.jpg",
-            "title" : "Kaziranga National Park",
-            "context" : "Kaziranga National Park is a protected area in the northeast Indian state of Assam. Spread across the floodplains of the Brahmaputra River.",
-            "buttonLink" : "https://www.kaziranga-national-park.com/"
+            "src": "https://wallpaperaccess.com/full/1780438.jpg",
+            "title": "Kaziranga National Park",
+            "context": "Kaziranga National Park is a protected area in the northeast Indian state of Assam. Spread across the floodplains of the Brahmaputra River.",
+            "buttonLink": "https://www.kaziranga-national-park.com/"
         },
         {
-            "src" : "https://wallpapercave.com/wp/3D9xK27.jpg",
-            "title" : "Sundarban National Park",
-            "context" : "Sundarbans National Park is a large coastal mangrove forest, shared by India and Bangladesh. Home to many endangered species.",
-            "buttonLink" : "https://www.sunderbannationalpark.in/"
+            "src": "https://wallpapercave.com/wp/3D9xK27.jpg",
+            "title": "Sundarban National Park",
+            "context": "Sundarbans National Park is a large coastal mangrove forest, shared by India and Bangladesh. Home to many endangered species.",
+            "buttonLink": "https://www.sunderbannationalpark.in/"
         },
         {
-            "src" : "https://www.teahub.io/photos/full/210-2101722_cute-baby-deer-running-4k-wallpaper-running-deer.jpg",
-            "title" : "Periyar National Park",
-            "context" : "Periyar National Park, also known as Periyar Tiger Reserve, is in the mountainous Western Ghats of Kerala, southern India.",
-            "buttonLink" : "https://www.periyartigerreserve.org/"
+            "src": "https://www.teahub.io/photos/full/210-2101722_cute-baby-deer-running-4k-wallpaper-running-deer.jpg",
+            "title": "Periyar National Park",
+            "context": "Periyar National Park, also known as Periyar Tiger Reserve, is in the mountainous Western Ghats of Kerala, southern India.",
+            "buttonLink": "https://www.periyartigerreserve.org/"
         },
         {
-            "src" : "https://i.pinimg.com/originals/34/29/79/34297900efc0f658338c16d16f683359.jpg",
-            "title" : "Satpura National Park",
-            "context" : "Satpura Tiger Reserve also known as Satpura National Park is located in the Hoshangabad District of Madhya Pradesh in India.",
-            "buttonLink" : "https://www.satpura-national-park.com/"
+            "src": "https://i.pinimg.com/originals/34/29/79/34297900efc0f658338c16d16f683359.jpg",
+            "title": "Satpura National Park",
+            "context": "Satpura Tiger Reserve also known as Satpura National Park is located in the Hoshangabad District of Madhya Pradesh in India.",
+            "buttonLink": "https://www.satpura-national-park.com/"
         }
     ],
-
-    "forts" : [
+    "forts": [
         {
-            "src" : "https://upload.wikimedia.org/wikipedia/commons/9/93/Baji_Prabhu_Deshpande_Statue_in_Panhala_Fort.jpg",
-            "title" : "Panhala Fort",
-            "context" : "In 1659 Shivaji had recently defeated Bijapur general Afzal Khan and conquered the Panhalgad fort. The fort is known for the battle between the Maratha king, Sardar Baji Prabhu Deshpande and Siddi Masud.",
-            "buttonLink" : "https://www.tripadvisor.in/Attraction_Review-g737166-d2622919-Reviews-Panhala_Fort-Kolhapur_Kolhapur_District_Maharashtra.html"
+            "src": "https://upload.wikimedia.org/wikipedia/commons/9/93/Baji_Prabhu_Deshpande_Statue_in_Panhala_Fort.jpg",
+            "title": "Panhala Fort",
+            "context": "In 1659 Shivaji had recently defeated Bijapur general Afzal Khan and conquered the Panhalgad fort. The fort is known for the battle between King Sardar Baji Prabhu Deshpande and Siddi Masud.",
+            "buttonLink": "https://www.tripadvisor.in/Attraction_Review-g737166-d2622919-Reviews-Panhala_Fort-Kolhapur_Kolhapur_District_Maharashtra.html"
         },
         {
-            "src" : "https://in.musafir.com/uploads/Pratapgad_3262f773e8.png",
-            "title" : "Rajgad Fort",
-            "context" : "Raigad Fort belonging to Chhatrapati Shivaji Maharaj is famous hill fort in Maharashtra. The fort was the capital of the Maratha Empire under the rule of Chatrapati Shivaji Maharaj for almost 26 years.",
-            "buttonLink" : "https://housing.com/news/raigad-fort-maharashtra/"
+            "src": "https://in.musafir.com/uploads/Pratapgad_3262f773e8.png",
+            "title": "Rajgad Fort",
+            "context": "Raigad Fort belonging to Chhatrapati Shivaji Maharaj is famous hill fort in Maharashtra. The fort was the capital of the Maratha Empire under the rule of Shivaji Maharaj for almost 26 years.",
+            "buttonLink": "https://housing.com/news/raigad-fort-maharashtra/"
         },
         {
-            "src" : "https://lh3.googleusercontent.com/p/AF1QipNnPQ5Y2rNqoiku8f7TtfqxjGZnL1W4up2qB6Ed=s1600-w4032",
-            "title" : "Jhansi Fort",
-            "context" : "This fort played a very important role in the revolution of 1857 and has been a witness to the fiery battle led by Rani Laxmi Bai. There are temples of Lord Shiva and Lord Ganesha within the fort.",
-            "buttonLink" : "https://jhansi.nic.in/tourist-place/jhansi-fort/"
+            "src": "https://lh3.googleusercontent.com/p/AF1QipNnPQ5Y2rNqoiku8f7TtfqxjGZnL1W4up2qB6Ed=s1600-w4032",
+            "title": "Jhansi Fort",
+            "context": "This fort played a very important role in the revolution of 1857 and has been a witness to the fiery battle led by Rani Laxmi Bai. There are temples of Lord Shiva and Lord Ganesha within the fort.",
+            "buttonLink": "https://jhansi.nic.in/tourist-place/jhansi-fort/"
         },
         {
-            "src" : "https://i.pinimg.com/originals/43/f0/34/43f034cbf2576c1d2a93fe5e8096a33a.jpg",
-            "title" : "Gwalior Fort",
-            "context" : "Gwalior Fort, situated on top of a hill, finds its place among the best fortresses of India. It is also considered to be one of the most impenetrable forts in the country.",
-            "buttonLink" : "https://theculturetrip.com/asia/india/articles/a-brief-history-of-indias-gwalior-fort/"
+            "src": "https://i.pinimg.com/originals/43/f0/34/43f034cbf2576c1d2a93fe5e8096a33a.jpg",
+            "title": "Gwalior Fort",
+            "context": "Gwalior Fort, situated on top of a hill, finds its place among the best fortresses of India. It is also considered to be one of the most impenetrable forts in the country.",
+            "buttonLink": "https://theculturetrip.com/asia/india/articles/a-brief-history-of-indias-gwalior-fort/"
         },
         {
-            "src" : "https://static.toiimg.com/photo/86481170.cms",
-            "title" : "Mehrangarh Fort",
-            "context" : "Epitomizing royalty and glory, this gem in Jodhpur is one of the largest and most beautiful forts in India. Built by Rao Jodha (the founder of Jodhpur) in 1459 overlooking the blue city.",
-            "buttonLink" : "https://www.tourmyindia.com/states/rajasthan/mehrangarh-fort-jodhpur.html"
+            "src": "https://static.toiimg.com/photo/86481170.cms",
+            "title": "Mehrangarh Fort",
+            "context": "Epitomizing royalty and glory, this gem in Jodhpur is one of the largest and most beautiful forts in India. Built by Rao Jodha (the founder of Jodhpur) in 1459 overlooking the blue city.",
+            "buttonLink": "https://www.tourmyindia.com/states/rajasthan/mehrangarh-fort-jodhpur.html"
         },
         {
-            "src" : "https://wallpaperaccess.com/full/2399192.jpg",
-            "title" : "Red Fort",
-            "context" : "Built by Mughal emperor Shah Jahan as the palace fort of his capital Shahjahanabad. Famous for its massive enclosing walls. The fort's construction was completed over a span of ten years.",
-            "buttonLink" : "https://delhitourism.gov.in/delhitourism/tourist_place/red_fort.jsp"
+            "src": "https://wallpaperaccess.com/full/2399192.jpg",
+            "title": "Red Fort",
+            "context": "Built by Mughal emperor Shah Jahan as the palace fort of his capital Shahjahanabad. Famous for its massive enclosing walls. The fort's construction was completed over a span of ten years.",
+            "buttonLink": "https://delhitourism.gov.in/delhitourism/tourist_place/red_fort.jsp"
         },
         {
-            "src" : "https://wallpapercave.com/wp/wp4909615.jpg",
-            "title" : "Agra Fort",
-            "context" : "Agra Fort is a historical fort in the city of Agra in India. It was the main residence of the emperors of the Mughal Dynasty till 1638, when the capital was shifted from Agra to Delhi.",
-            "buttonLink" : "https://agra.nic.in/tourist-place/agra-fort/"
+            "src": "https://wallpapercave.com/wp/wp4909615.jpg",
+            "title": "Agra Fort",
+            "context": "Agra Fort is a historical fort in the city of Agra in India. It was the main residence of the emperors of the Mughal Dynasty till 1638, when the capital was shifted from Agra to Delhi.",
+            "buttonLink": "https://agra.nic.in/tourist-place/agra-fort/"
         },
         {
-            "src" : "https://www.liveenhanced.com/wp-content/uploads/2018/01/Golconda-Fort-Images.jpg",
-            "title" : "Golconda Fort",
-            "context" : "Golconda Fort is located at a place called Golconda which is around 11 kilometres away from the Hyderabad city. This fort is truly an architectural marvel.",
-            "buttonLink" : "https://telanganatourism.gov.in/partials/destinations/heritage-spots/hyderabad/golconda-fort.html"
-        }, 
-        {
-            "src" : "https://www.wallpapersdsc.net/wp-content/uploads/2016/09/Chittorgarh-Fort-Widescreen.jpg",
-            "title" : "Chittorgarh Fort",
-            "context" : "The most alluring factor of this city is the Chittorgarh Fort. Famous for the Jauhar that Rani Padmini and Rani Karnavati underwent during siege, the Chittorgarh Fort has seen a lot of valiant battles.",
-            "buttonLink" : "https://www.tripsavvy.com/chittorgarh-fort-the-complete-guide-4174892"
+            "src": "https://www.liveenhanced.com/wp-content/uploads/2018/01/Golconda-Fort-Images.jpg",
+            "title": "Golconda Fort",
+            "context": "Golconda Fort is located at a place called Golconda which is around 11 kilometres away from the Hyderabad city. This fort is truly an architectural marvel.",
+            "buttonLink": "https://telanganatourism.gov.in/partials/destinations/heritage-spots/hyderabad/golconda-fort.html"
         },
         {
-            "src" : "https://upload.wikimedia.org/wikipedia/commons/f/f0/Bikaner_fort_view_08.jpg",
-            "title" : "Junagarh Fort",
-            "context" : "Junagarh Fort is one of the most well-known forts in Bikaner having magnificent architecture and deep historical significance. The fort has an array of temples, museums, and palaces within it.",
-            "buttonLink" : "https://www.tripadvisor.in/Attraction_Review-g297666-d2540598-Reviews-Junagarh_Fort-Bikaner_Bikaner_District_Rajasthan.html"
+            "src": "https://www.wallpapersdsc.net/wp-content/uploads/2016/09/Chittorgarh-Fort-Widescreen.jpg",
+            "title": "Chittorgarh Fort",
+            "context": "The most alluring factor of this city is the Chittorgarh Fort. Famous for the Jauhar that Rani Padmini and Rani Karnavati underwent during siege, this Fort has seen a lot of valiant battles.",
+            "buttonLink": "https://www.tripsavvy.com/chittorgarh-fort-the-complete-guide-4174892"
+        },
+        {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Bikaner_fort_view_08.jpg",
+            "title": "Junagarh Fort",
+            "context": "Junagarh Fort is one of the most well-known forts in Bikaner having magnificent architecture and deep historical significance. The fort has an array of temples, museums, and palaces within it.",
+            "buttonLink": "https://www.tripadvisor.in/Attraction_Review-g297666-d2540598-Reviews-Junagarh_Fort-Bikaner_Bikaner_District_Rajasthan.html"
         }
     ]
 }
