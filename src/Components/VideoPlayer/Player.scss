@@ -1,5 +1,4 @@
 .videoPlayer {
-
     video {
         border-radius: 5px;
         width: 100%;
@@ -28,4 +27,11 @@
     justify-content: center;
     margin: auto;
     background-color: rgb(240, 126, 13);
+}
+
+#loader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
 }
