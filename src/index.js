@@ -8,8 +8,7 @@ import VideoPlayer from './Components/VideoPlayer/Player';
 import TopPlaces from './Components/TopPlaces/TopPlaces';
 import States from './Components/States/States';
 import Footer from './Components/Footer/Footer';
-import OneParas from './Components/Titles/OneParam'
-import TwoParams from './Components/Titles/TwoParams';
+import TypeWriter from './Components/TypeWriter/TypeWriter';
 
 import './index.scss';
 
@@ -23,23 +22,24 @@ root.render(
     <div className='component-body'>
 
       <div className='big-hr-line' />
+      
+      <TypeWriter listTitles={["Welcome !", "Start Exploring India"]}/>
 
-      <TwoParams title1="Welcome !" title2="Start Exploring India" />
       <div style={{ height: '25px' }} />
       <VideoPlayer />
 
       <div style={{ height: '80px' }} id='popular-carousal' />
-      <TwoParams title1="Popular in India" title2="Must Visit"/>
+      <TypeWriter listTitles={["Popular in India", "Must Visit"]}/>
       <div style={{ height: '25px' }} />
       <Popular />
 
 
       <div style={{ height: '80px' }} id='top-places' />
-      <OneParas title="Top Places to Visit" />
+      <TypeWriter listTitles={["Top Places to Visit"]} />
       <TopPlaces />
 
       <div style={{ height: '80px' }} id='states-to-visit' />
-      <OneParas title="States & UTs to Visit" />
+      <TypeWriter listTitles={["States & UTs to Visit"]} />
       <States />
 
     </div>

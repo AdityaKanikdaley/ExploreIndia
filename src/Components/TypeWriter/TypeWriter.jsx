@@ -1,16 +1,21 @@
 import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 
-import "./Titles.scss";
+import "./TypeWriter.scss";
 
 export default function MainTitle(props) {
-
+   
+    const list = [];
+    (props.listTitles).forEach(element => {
+        list.push(element);
+    });
+    
     const { text } = useTypewriter({
-        words: [`${props.title1}`, `${props.title2}`],
+        words: list,
         loop: 0,
         typeSpeed: 100,
     });
-
+    
     return (
         <h1 className='h1-headings'>
             <span>
