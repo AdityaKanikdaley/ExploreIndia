@@ -3,7 +3,7 @@ import ReactLoading from 'react-loading';
 import { fadeIn } from 'react-animations'
 import styled, { keyframes } from 'styled-components';
 
-import Video from "./Video.mp4";
+// import Video from "./Video.mp4";
 
 import './Player.scss';
 
@@ -11,10 +11,18 @@ const FadeIn = styled.div`animation: 4s ${keyframes`${fadeIn}`}`;
 
 function VideoPlayer() {
 
+    const [data, setData] = useState([]);
     const [done, setDone] = useState(undefined);
+
     useEffect(() => {
         setTimeout(() => {
-            setDone(true);
+            fetch("https://adityakanikdaley.github.io/EIUtil/api.json")
+                .then((response) => response.json())
+                .then((json) => {
+                    // console.log(json);
+                    setData(json);
+                    setDone(true);
+                });
         }, 2500);
     }, []);
 
@@ -34,12 +42,11 @@ function VideoPlayer() {
                     (
                         <FadeIn>
                             <video nocontrols="true" autoPlay loop muted>
-                                <source src={Video} type="video/mp4" />
+                                <source src={data[0].videoUrl} type="video/mp4" />
                             </video>
                         </FadeIn>
                     )
             }
-
         </div>
     );
 }
