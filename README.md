@@ -2,7 +2,7 @@
 
 ### I have created this project to guide travelers and foreigners who are looking to Visit and Explore India. <br>
 
-### Demo: [Explore India](https://adityakanikdaley.github.io/ExploreIndia/)
+### Visit: [Explore India](https://adityakanikdaley.github.io/ExploreIndia/)
 
 <br>
 
